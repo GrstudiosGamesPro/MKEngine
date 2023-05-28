@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{5adc4a8a-d3d8-4641-9b54-cb0935728ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{72ac2c07-1438-4d5d-b84e-0f164d85f378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUIBuild">
+      <UniqueIdentifier>{68884045-dbee-4da0-987e-3a77b3083511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIClass">
+      <UniqueIdentifier>{2ce58211-2200-43c2-9082-d37941806d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\HUD">
+      <UniqueIdentifier>{4556a8f3-0ff2-4361-9bb5-7dc35ca770ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{bbd02ed1-8429-4964-b618-24210a488e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Texture">
+      <UniqueIdentifier>{1a6e7212-626d-4369-9147-a183744cea49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{880d1559-c05e-4a78-9d19-32fc5e023cc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\windows\windowsmanager.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\windows\StartEngine.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\windows\BinaryStart.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_demo.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_draw.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_impl_sdl2.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_impl_sdlrenderer.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_tables.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="vendors\includes\ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUIBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\UIBuilder.cpp">
+      <Filter>UI\UIClass</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\RunWindows.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\components\texture\TextureComponent.cpp">
+      <Filter>Components\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\windows\windowsmanager.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="source\windows\StartEngine.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="source\windows\BinaryStart.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\ImGuiImplement.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imconfig.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imgui.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imgui_impl_sdl2.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imgui_impl_sdlrenderer.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imgui_internal.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imstb_rectpack.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imstb_textedit.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="vendors\includes\ImGUI\imstb_truetype.h">
+      <Filter>ImGUIBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\UIBuilder.h">
+      <Filter>UI\UIClass</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\RunWindows.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\Huds\UIHierarchy.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\Huds\UIConsole.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\Huds\UIAssets.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\Huds\UIInspector.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\components\texture\TextureComponent.h">
+      <Filter>Components\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
